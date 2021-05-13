@@ -1,0 +1,5 @@
+package com.spring.rest.CourseAppAPI.controller;
+
+public class CourseAppController {
+
+}

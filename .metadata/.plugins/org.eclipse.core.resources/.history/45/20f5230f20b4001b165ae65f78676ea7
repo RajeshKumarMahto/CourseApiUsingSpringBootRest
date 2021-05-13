@@ -1,0 +1,13 @@
+package com.spring.rest.CourseAppAPI.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CourseAppController {
+
+	@GetMapping
+	public String Home() {
+		return "This is Home";
+	}
+	
+}

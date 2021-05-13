@@ -1,0 +1,11 @@
+package com.spring.rest.CourseAppAPI.services;
+
+public class CourseServiceImp implements CourseService{
+
+	@Override
+	public List<Course> getCourses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

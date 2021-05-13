@@ -1,0 +1,7 @@
+package com.spring.rest.CourseAppAPI.services;
+
+public interface CourseService {
+	
+	public List<Course> getCourses();
+
+}

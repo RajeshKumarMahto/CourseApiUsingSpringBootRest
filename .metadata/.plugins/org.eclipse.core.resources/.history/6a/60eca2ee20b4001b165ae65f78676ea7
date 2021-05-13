@@ -1,0 +1,9 @@
+package com.spring.rest.CourseAppAPI.entity;
+
+public class Course {
+
+	private int id;
+	private String title;
+	private String description;
+	
+}

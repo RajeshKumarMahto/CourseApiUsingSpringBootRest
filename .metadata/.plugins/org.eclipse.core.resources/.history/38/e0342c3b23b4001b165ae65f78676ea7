@@ -1,0 +1,27 @@
+package com.spring.rest.CourseAppAPI.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.spring.rest.CourseAppAPI.entity.Course;
+import com.spring.rest.CourseAppAPI.services.CourseService;
+
+@RestController
+public class CourseAppController {
+
+	/*
+	@GetMapping("/home")
+	public String home() {
+		return "This is Home";
+	}
+	*/
+	private CourseService courseService;
+	//get courses
+	@GetMapping("/courses")
+	public List<Course> getCourse(){
+		return courseService.getCourses();
+	}
+	
+}
